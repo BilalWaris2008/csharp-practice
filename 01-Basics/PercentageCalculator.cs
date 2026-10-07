@@ -1,0 +1,16 @@
+﻿Console.Write("Enter English Marks: ");
+int eng = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter Maths Marks: ");
+int maths = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter Urdu Marks: ");
+int urdu = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter Computer Marks: ");
+int comp = Convert.ToInt32(Console.ReadLine());
+int totalmarks = 400;
+int obtainedmarks = eng + maths + urdu + comp;
+double percentage = (double)obtainedmarks / totalmarks * 100;
+Console.WriteLine("");
+Console.WriteLine($"Total Marks: {totalmarks}");
+Console.WriteLine($"Obtained Marks: {obtainedmarks}");
+Console.WriteLine("");
+Console.WriteLine($"Percentage: {percentage}%");
